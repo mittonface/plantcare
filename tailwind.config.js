@@ -1,5 +1,5 @@
 module.exports = {
-  purge: ["./src/components/*.tsx", "./src/pages/*.tsx"],
+  purge: ["./components/*.tsx", "./pages/*.tsx"],
   theme: {
     extend: {},
   },
@@ -8,4 +8,4 @@ module.exports = {
   },
   variants: {},
   plugins: [require("@tailwindcss/ui")],
-}
+};
