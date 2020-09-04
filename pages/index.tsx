@@ -14,7 +14,7 @@ const plants: Plant[] = [
   },
 ];
 const Home: React.FC<any> = () => (
-  <Layout>
+  <Layout pageTitle={"Dashboard"}>
     <PlantList plants={plants} />
   </Layout>
 );
